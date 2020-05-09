@@ -66,6 +66,8 @@ This method takes the json data df, tfidfvectorizer generated feature_matrix and
 This method takes the feature matrix , dataframe and the n_top value which is the number of top dishes we want to display.
 I have used cosine_similarity method from sklearn to get all the similarity scores between the input feature vector and the all the other feature vectors of the recipe files. Then I sorted the array of scores in reverse order and taken only the n_top indices from them. Then using those indices I have traversed through the list of ids , list of cuisines obtained from the dataframe and formed a list of tuples containing the recipe_id , score , cuisine type. This method returns the list containing the top-N foods.
 
+References used - Textbook and Sklearn package.
+
 #### Output
 
 The output is a predicted cuisine type for the input ingredients and also the top_n closest foods along with the scores of relation is outputted. The closest cuisine list is made of tuples each in the following format (id,score,cuisine). "id" is the id of the corresponding recipe,"score" generated from cosine_similarity,"cuisine" of the corresponding recipe.
