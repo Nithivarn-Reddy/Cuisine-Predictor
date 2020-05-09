@@ -30,12 +30,12 @@ The step-wise functionality of achieving the objectives.
 ## Steps to install the project
 
 This is a .ipynb so you can download it and run it on your jupyter or upload it your google colab and then run each cell.
-When running the .ipynb file in jupyter if it can't find the packages, then install them using conda installer , if you are using anaconda python development package.
+When running the Analyzer.ipynb file in jupyter if it can't find the packages, then install them using conda installer , if you are using anaconda python development package.
 If you are just using jupyter notebook then install the required packages using pip3 installer.
 
 ## Steps to Run the project
 First download the recipe json files using this link (https://www.dropbox.com/s/f0tduqyvgfuin3l/yummly.json).
-Next download the .ipynb and get the path where your json data is downloaded or where it is placed.
+Next download the Analyzer.ipynb and get the path where your json data is downloaded or where it is placed.
 Provide the path as a string to read_json_df() method.
 Later Provide the input containing ingredients and then run each cell, there after.
 
