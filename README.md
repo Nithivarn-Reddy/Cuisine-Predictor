@@ -68,7 +68,12 @@ I have used cosine_similarity method from sklearn to get all the similarity scor
 
 #### Output
 
-The output is a predicted cuisine type for the input ingredients and also the top_n closest foods along with the scores of relation is outputted.
+The output is a predicted cuisine type for the input ingredients and also the top_n closest foods along with the scores of relation is outputted. The closest cuisine list is made of tuples each in the following format (id,score,cuisine). "id" is the id of the corresponding recipe,"score" generated from cosine_similarity,"cuisine" of the corresponding recipe.
+
+##### Sample Output
+Input Ingredients -  ['chili powder', 'pepper', 'butter', 'bread', 'chicken', 'lettuce']
+Predicted cuisine type for above ingredients - ['mexican']
+Closest 8 cuisines with scores (id,score,cuisine)- [(33393, 0.4467, 'mexican'), (19277, 0.4421, 'russian'), (42954, 0.4191, 'mexican'), (15753, 0.4139, 'russian'), (34743, 0.4015, 'thai'), (31220, 0.3963, 'mexican'), (13975, 0.3945, 'french'), (37087, 0.3857, 'indian')]
 
 ### For questions regarding the approach.
 
