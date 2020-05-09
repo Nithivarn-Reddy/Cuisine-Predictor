@@ -36,7 +36,8 @@ If you are just using jupyter notebook then install the required packages using 
 ## Steps to Run the project
 First download the recipe json files using this link (https://www.dropbox.com/s/f0tduqyvgfuin3l/yummly.json).
 Next download the .ipynb and get the path where your json data is downloaded or where it is placed.
-Provide the path as a string to read_json_df() method and then run each cell, there after.
+Provide the path as a string to read_json_df() method.
+Later Provide the input containing ingredients and then run each cell, there after.
 
 ## Assumptions made in the project are
 
@@ -47,6 +48,8 @@ Provide the path as a string to read_json_df() method and then run each cell, th
 3) I have used RandomforestClassifier as my predictor after comparing the accuracies of several classifiers on the dataset.
 
 4) I know that we can't perfectly say that which classifier is best using train_test_split technique on the dataset, but over here I have only used that metric in calculating the accuracies of several classifiers and then selecting that classifier.
+
+5) Only one input list is provided by the user and it is comprised of strings.
 
 ### Functionality of each method in .ipynb
 
