@@ -1,4 +1,4 @@
-# cs5293sp20-project3
+# Recipe Analyzer
 
 The main aim of this project is to develop a analyzer which takes the several json files of recipes and predicts the cuisine of the inputted ingredients. The project also provides closest cuisines possible for the given list of ingredients.
 
